@@ -3,17 +3,27 @@
 # Buscador de Películas con OmdbApi
 Este proyecto es una aplicación web diseñada para buscar películas utilizando la API de OmdbApi. Se enfoca en proporcionar una experiencia de usuario fluida y eficiente, minimizando el sobre renderizado y optimizando las búsquedas a través de técnicas avanzadas de React.
 
-Características Principales
+## Características Principales
+
 Búsqueda de Películas: Permite a los usuarios buscar películas por título utilizando la API de OmdbApi.
+
 Auto Search: Implementa una funcionalidad de búsqueda automática que inicia la búsqueda a medida que el usuario escribe, mejorando la interactividad.
+
 Debounce: Utiliza la técnica de debounce para limitar las solicitudes de búsqueda y mejorar el rendimiento, evitando llamadas innecesarias a la API.
+
 Ordenamiento de Resultados: Los usuarios pueden ordenar las películas encontradas según diferentes criterios, como año de lanzamiento o título.
-Optimización de Renderizado: A través de useMemo y useCallback, se minimiza el sobre renderizado, asegurando que solo los componentes necesarios se actualicen durante la interacción del usuario.
+
+Optimización de Renderizado: A través de useMemo y useCallback, se minimiza el sobre renderizado, asegurando que solo los componentes necesarios se actualicen durante 
+la interacción del usuario.
+
 Manejo de Referencias: Utiliza useRef para manejar referencias a elementos del DOM y valores que no provocan re-render al actualizarse.
-Tecnologías y Herramientas Utilizadas
-React: Para la construcción de la interfaz de usuario y la gestión del estado.
-OmdbApi: Como fuente de datos para las búsquedas de películas.
-Hooks Personalizados: Para encapsular la lógica de negocios y mejorar la reusabilidad del código.
+
+## Tecnologías y Herramientas Utilizadas
+- React: Para la construcción de la interfaz de usuario y la gestión del estado.
+- OmdbApi: Como fuente de datos para las búsquedas de películas.
+- Hooks Personalizados: Para encapsular la lógica de negocios y mejorar la reusabilidad del código.
+
+
 Cómo Empezar
 Para ejecutar este proyecto localmente, sigue estos pasos:
 
