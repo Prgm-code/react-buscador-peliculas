@@ -1,6 +1,6 @@
 - [Demo-Vercel](https://react-buscador-peliculas-56msxzfny-prgm-code.vercel.app/).
 
-Buscador de Películas con OmdbApi
+# Buscador de Películas con OmdbApi
 Este proyecto es una aplicación web diseñada para buscar películas utilizando la API de OmdbApi. Se enfoca en proporcionar una experiencia de usuario fluida y eficiente, minimizando el sobre renderizado y optimizando las búsquedas a través de técnicas avanzadas de React.
 
 Características Principales
@@ -20,8 +20,9 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 Clona el repositorio:
 
 git clone [https://github.com/Prgm-code/react-buscador-peliculas.git](https://github.com/Prgm-code/react-buscador-peliculas.git)
+
 Instala las dependencias:
-Copy code
+
 npm install
 
 Configuración de la Clave API de OmdbApi
@@ -32,18 +33,17 @@ Obtener la Clave API:
 Visita http://www.omdbapi.com/apikey.aspx para solicitar una clave API de OmdbApi.
 Completa el formulario de registro y selecciona el nivel de acceso adecuado para tus necesidades.
 Recibirás tu clave API por correo electrónico una vez que se procese tu solicitud.
-Configurar la Clave API en tu Proyecto:
+
+## Configurar la Clave API en tu Proyecto:
 
 En la raíz de tu proyecto, crea un archivo denominado .env.
 Agrega la siguiente línea al archivo .env, reemplazando TU_CLAVE_API con la clave API que recibiste:
 
-Copy 
 VITE_API_KEY_OMDBAPI=TU_CLAVE_API
 
 Este archivo .env será leído por tu aplicación para utilizar la clave API en las solicitudes a la API de OmdbApi.
 Inicia el servidor de desarrollo:
-sql
-Copy code
+
 npm start
 Visita http://localhost:3000 para ver la aplicación en acción.
 
