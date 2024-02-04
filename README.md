@@ -1,4 +1,5 @@
 - [Demo-Vercel](https://react-buscador-peliculas-56msxzfny-prgm-code.vercel.app/).
+
 Buscador de Películas con OmdbApi
 Este proyecto es una aplicación web diseñada para buscar películas utilizando la API de OmdbApi. Se enfoca en proporcionar una experiencia de usuario fluida y eficiente, minimizando el sobre renderizado y optimizando las búsquedas a través de técnicas avanzadas de React.
 
