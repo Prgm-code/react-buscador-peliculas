@@ -19,7 +19,7 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
 Clona el repositorio:
 
-git clone https://tu-repositorio.git
+git clone [https://tu-repositorio.git](https://github.com/Prgm-code/react-buscador-peliculas.git/)
 Instala las dependencias:
 Copy code
 npm install
